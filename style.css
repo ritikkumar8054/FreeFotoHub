@@ -91,6 +91,22 @@ form button{
     font-size: 18px;
 }
 
+@media (max-width: 600px) {
+    form {
+        height: 60px;
+    }
+
+    form i {
+        font-size: 18px;
+        left: 10px;
+    }
+
+    form input {
+        font-size: 14px;
+        padding-left: 40px;
+    }
+}
+
 #show-more-btn{
     background: #ff3929;
     color: #fff;
