@@ -21,7 +21,7 @@ body::before {
     z-index: -1;
     margin: 0;
     padding: 0;
-    background-image: url('flower.jpg');
+    background-image: url('/Images/flower.jpg');
     background-size: cover;
     background-position: center;
     filter: blur(10px);
@@ -305,3 +305,24 @@ form button:active, #show-more-btn:active {
         height: auto;
     }
 }
+
+.about-me {
+    overflow: hidden;
+  }
+
+  .round-image {
+    float: right; 
+    border-radius: 50%;
+    margin: 0 400px 0px 10px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .about-name {
+    margin: 50px 20px 0 50px;
+    font-size: 30px;
+  }
+  .about-me-text {
+    margin: 50px 20px 0 50px;
+    font-size: 20px;
+  }
